@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    height: 400px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.sub-container{
+    height: 80%;
+    position: relative;    
+    box-shadow: 2px 2px 10px 5px rgb(231,231,231);
+}
+
+.btn-container{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.copy-btn{
+    float: left;
+    margin: 17px;    
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.generate-btn{
+    float: right;
+    margin: 17px;
+    font-size: 20px;    
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.quotation{
+    font-size: 25px;
+    margin: 20px;
+}
+
+.showcase{
+    height: 75%;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    transition: 2s ease;
+}
+
+.hyphen{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.textcopy-display{
+    box-shadow: 2px 2px 5px 2px rgb(195, 195, 195);
+    width: 100px;
+    padding: 5px;
+    margin: 30px;
+    bottom: 0;
+    position: absolute;
+    border-radius: 5px;
+    font-weight: bolder;
+    display: none;
+}

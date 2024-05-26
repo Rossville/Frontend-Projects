@@ -1,0 +1,47 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css);
+
+.animals-list{
+    list-style-type: none;
+    margin: 0;
+}
+
+.btn-align-center{
+    margin-left: 80px;
+}
+
+.card{
+    margin: 35px;
+    border-radius: 20px;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 13px 5px rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.show{
+    display: block;
+}
+
+
+.hide{
+    display: none;
+}
+
+.grid-container img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.navbar{
+    display: flex;
+}
